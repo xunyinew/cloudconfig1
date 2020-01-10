@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    active: dev
   datasource:
     druid:
       url: jdbc:mysql://127.0.0.1:3306/nacos_config?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull
